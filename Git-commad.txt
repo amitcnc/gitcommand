@@ -1,0 +1,79 @@
+Git 
+
+1. select branch first (staging or main)
+
+2. First take pull from staging or main branch - Pull from  (staging or main)
+
+then run command - "git pull" enter now
+
+3. Select now your branch (amit-dev) - them merge staging pulled data in your branch 
+
+then run command - "git merge staging-dev"
+
+4. sync changes
+
+
+Commit 
+
+select your branch first (amit-dev)
+
+stage it first all files 
+
+run command - "git commit -m "card style 3 issue fixed can retrive post. case-study at one time in react component, - footer menu privacy policy and  Your privacy choice merged in code and react component"
+
+run command - "git push" Is like sync chnages
+
+run command - "git pull"
+
+all files check
+
+Clone Command 
+
+git status
+
+git clone <-link->
+
+ls -a
+
+git init
+
+git remote add origin <-link->
+
+git remote -v
+
+git branch (check current branch)
+
+git branch -M main (rename your branch name)
+
+git checkout <-branch name-> (to navigate)
+
+git checkout -b <-new branch name-> ( to create new branch )
+
+git branch -d <-branch name-> (to delete branch)
+
+Merging code 
+
+way 1 
+
+git diff <-branch name-> (to compare commits,branches,files & more)
+
+git merge <-branch name-> (to merge 2 branches)
+
+way 2
+
+Create a PR
+
+git pull origin main 
+
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+
+Undoing Changes
+Case 1: staged changes
+git reset <- file name ->
+git reset
+Case 2: commited changes (for one commit)
+git reset HEAD~1
+Case 3: commited changes (for many commits)
+git reset <- commit hash ->
+git reset --hard <- commit hash ->
